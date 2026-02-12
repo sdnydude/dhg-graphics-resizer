@@ -40,4 +40,12 @@ First time it runs:
 | Background removal slow | Normal — ~2-5 seconds per image for AI processing |
 | Need to reinstall deps | Delete the `.venv` folder and re-launch |
 
+## What's in the Folder
+
+| File | Purpose |
+|------|---------|
+| `Launch Headshot Resizer.command` | Double-click this to launch |
+| `batch_resize_headshots.py` | The app (don't edit) |
+| `.venv/` | Created on first run — dependencies live here |
+
 Questions? Contact Stephen Webber — DHG
