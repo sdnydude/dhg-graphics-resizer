@@ -1,0 +1,14 @@
+# Virtual environments
+.venv/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependencies flag
+.deps_installed
+
+# Output
+resized/
