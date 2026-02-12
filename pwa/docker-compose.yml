@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  dhg-graphics-resizer:
+    build: .
+    container_name: dhg-graphics-resizer-pwa
+    ports:
+      - "3080:80"
+    restart: unless-stopped
+    labels:
+      - "com.dhg.service=graphics-resizer"
+      - "com.dhg.division=dhg-studios"
