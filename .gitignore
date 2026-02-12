@@ -1,14 +1,27 @@
 # Virtual environments
 .venv/
+venv/
+env/
+
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# AI models (downloaded at runtime)
+*.onnx
 
 # OS files
 .DS_Store
-Thumbs.db
+Thumbbs.db
+desktop.ini
 
 # Dependencies flag
 .deps_installed
 
-# Output
+# Output folders
 resized/
+output/

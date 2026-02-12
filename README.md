@@ -74,13 +74,20 @@ When AI background removal is enabled, replace with:
 
 ```
 dhg-graphics-resizer/
-├── batch_resize_headshots.py   # Main application (~1000 lines)
+├── batch_resize_headshots.py        # Main application (~1000 lines)
+├── requirements.txt                 # Python dependencies
 ├── mac/
+│   ├── batch_resize_headshots.py    # App (included for standalone use)
 │   ├── Launch Headshot Resizer.command
 │   └── README.md
 ├── windows/
+│   ├── batch_resize_headshots.py    # App (included for standalone use)
 │   ├── Launch Headshot Resizer.bat
 │   └── README.md
+├── docs/
+│   └── DHG-Graphics-Resizer-User-Guide.docx
+├── CHANGELOG.md
+├── LICENSE                          # MIT
 └── README.md
 ```
 
